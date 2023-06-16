@@ -33,6 +33,7 @@ local url =
     local abcdef = {Url = url, Body = newdata, Method = "POST", Headers = headers}
 request(abcdef)
 
+wait(1)
 
 local Blacklist = {318347167}
 
