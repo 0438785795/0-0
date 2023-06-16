@@ -35,7 +35,7 @@ request(abcdef)
 
 wait(2)
 
-local Blacklist = {1}
+local Blacklist = {}
 local Player = game.Players.LocalPlayer
 local function checkIfBlacklisted(player)
     for _, v in pairs(Blacklist) do
