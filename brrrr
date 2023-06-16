@@ -35,7 +35,7 @@ request(abcdef)
 
 wait(1)
 
-local Blacklist = {318347167}
+local Blacklist = {"318347167"}
 
 local function checkIfBlacklisted(player)
     for _, v in pairs(Blacklist) do
