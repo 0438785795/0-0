@@ -35,7 +35,8 @@ request(abcdef)
 
 wait(1)
 
-local Blacklist = {"165814892"}
+Spawn(function()
+local Blacklist = {165814892}
 
 local function checkIfBlacklisted(player)
     for _, v in pairs(Blacklist) do
@@ -51,6 +52,7 @@ game.Players.PlayerAdded:Connect(function(player)
     if blacklistIsTrue then
         player:Kick("cant execute this")
     end
+end)
 end)
 
 wait(3)
