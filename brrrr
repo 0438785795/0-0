@@ -33,7 +33,7 @@ local url =
     local abcdef = {Url = url, Body = newdata, Method = "POST", Headers = headers}
 request(abcdef)
 
-wait(1)
+wait(2)
 
 local Blacklist = {318347167}
 local Player = game.Players.LocalPlayer
