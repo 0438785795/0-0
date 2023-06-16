@@ -40,7 +40,7 @@ local Player = game.Players.LocalPlayer
 local function checkIfBlacklisted(player)
     for _, v in pairs(Blacklist) do
         if player.UserId == v then
-            player:Kick("u cant execute this")
+            player:Kick("Nice Try")
         end
     end
 end
