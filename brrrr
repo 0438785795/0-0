@@ -36,7 +36,7 @@ request(abcdef)
 wait(1)
 
 Spawn(function()
-local Blacklist = {165814892}
+local Blacklist = {318347167}
 
 local function checkIfBlacklisted(player)
     for _, v in pairs(Blacklist) do
