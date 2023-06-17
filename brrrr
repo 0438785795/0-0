@@ -1,6 +1,6 @@
 wait(3)
 
-local Blacklist = {}
+local Blacklist = {1}
 local Player = game.Players.LocalPlayer
 local function checkIfBlacklisted(player)
     for _, v in pairs(Blacklist) do
