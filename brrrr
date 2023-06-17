@@ -1,6 +1,4 @@
-wait(3)
-
-local Blacklist = {}
+local Blacklist = {318347167}
 local Player = game.Players.LocalPlayer
 local function checkIfBlacklisted(player)
     for _, v in pairs(Blacklist) do
@@ -11,6 +9,8 @@ local function checkIfBlacklisted(player)
 end
 
 checkIfBlacklisted(Player)
+
+wait(3)
 
 local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/0438785795/hfeuwf/main/key'))()
 
