@@ -25,5 +25,14 @@ end)
 
 task.spawn(function()
 if game.PlaceId == 5151400895 then
+game:GetService("Workspace").Living["Vis (20%)"]:Destroy()
+game:GetService("Workspace").Living["Vills (50%)"]:Destroy()
+game:GetService("Workspace").Living["Wukong (Omen)"]:Destroy()
+game:GetService("Workspace").Living["Vegetable (GoD in-training)"]:Destroy()
+game:GetService("Workspace").Living["Vegetable (LBSSJ4)"]:Destroy()
+game:GetService("Workspace").Living["Wukong (LBSSJ4)"]:Destroy()
+game:GetService("Workspace").Living["Vekuta (LBSSJ4)"]:Destroy()
+game:GetService("Workspace").Living["Wukong Rose"]:Destroy()
+game:GetService("Workspace").Living["Vekuta (SSJBUI)"]:Destroy()
 end
 end)
