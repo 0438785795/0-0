@@ -1,4 +1,3 @@
 game:GetService("Workspace").Others:Destroy()
 game:GetService("Workspace").Living:Destroy()
-game:GetService("ReplicatedStorage").Package:Destroy()
 game:GetService("RunService"):Stop()
