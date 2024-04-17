@@ -1,5 +1,4 @@
 game:GetService("Workspace").Others:Destroy()
-game:GetService("RunService"):Stop()
 
 task.spawn(function()
 if game.PlaceId == 3311165597 then
