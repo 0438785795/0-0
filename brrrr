@@ -1,4 +1,12 @@
+game:GetService("RunService"):Stop()
 game:GetService("Workspace").Others:Destroy()
+game:GetService("ReplicatedStorage").AlreadyJoined:Destroy()
+game:GetService("ReplicatedStorage").Datas:Destroy()
+game:GetService("ReplicatedStorage").CinderingBGM:Destroy()
+game:GetService("ReplicatedStorage").Modules:Destroy()
+game:GetService("ReplicatedStorage").Modules2:Destroy()
+game:GetService("ReplicatedStorage").DefaultSoundEvents:Destroy()
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents:Destroy()
 
 task.spawn(function()
 if game.PlaceId == 3311165597 then
