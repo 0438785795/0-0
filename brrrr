@@ -1,4 +1,3 @@
-game:GetService("RunService"):Stop()
 game:GetService("Workspace").Others:Destroy()
 game:GetService("ReplicatedStorage").AlreadyJoined:Destroy()
 game:GetService("ReplicatedStorage").Datas:Destroy()
